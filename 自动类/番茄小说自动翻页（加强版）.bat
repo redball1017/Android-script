@@ -31,7 +31,7 @@ goto loop
 set /a x1=%random%%%(1020-750+1)+750
 set /a y1=%random%%%(2245-320+1)+320
 set /a xplus=%random%%%(400-100+1)+100
-set /a yplus=%random%%%(200-50+1)+50
+set /a yplus=%random%%%(100-10+1)+10
 set /a x2=%x1%+%xplus%
 set /a y2=%y1%+%yplus%
 set /a time=%random%%%(50-25+1)+25
